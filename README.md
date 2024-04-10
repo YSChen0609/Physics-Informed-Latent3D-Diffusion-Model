@@ -15,3 +15,9 @@ Including:
  - **van der Mers:** the protein structures used for the van der Mers data augmentation strategy were downloaded [here](https://files.ipd.uw.edu/pub/training_sets/pdb_2021aug02.tar.gz).
 
 # Algorithm
+The Latent3D Graph Diffusion model is using a **pre-trained Autoencoder** to project input ligand to a latent space. After that, a **diffusion model** is trained in the latent space for generating ligand in the inference mode. The protein is used as a condition for decoder, which consists of 2 parts, giving the topology and 3D coordinates outcomes seperately describing the generated ligand.
+The overview of the Latent3D Graph Diffusion model is illustrated below:
+![image](https://github.com/YSChen0609/Physics-Informed-Latent3D-Diffusion-Model/assets/143129316/ffc7140e-db10-4d3a-ac7a-deb647e779c7)
+
+**Note that the physics-informed features have not integrated, and not mentioned above since it is still underdevelopment.
+**
