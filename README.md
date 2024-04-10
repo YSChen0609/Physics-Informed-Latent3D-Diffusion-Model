@@ -19,4 +19,4 @@ The Latent3D Graph Diffusion model is using a **pre-trained Autoencoder** to pro
 The overview of the Latent3D Graph Diffusion model is illustrated below:
 ![image](https://github.com/YSChen0609/Physics-Informed-Latent3D-Diffusion-Model/assets/143129316/ffc7140e-db10-4d3a-ac7a-deb647e779c7)
 
-**Note that the physics-informed features have not integrated, and not mentioned above since it is still underdevelopment.**
+**Note that the physics-informed features have not integrated, and not mentioned above since it is still UNDERDEVELOPMENT.**
